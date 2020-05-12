@@ -1,0 +1,248 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/09b7cc50/
+Building	README.md	/^### Building$/;"	S	section:PBC for Android""How-to: Build your own version
+D	include/pbc_mnt.h	/^  int D; \/\/discrminant needed to find j-invariant$/;"	m	struct:pbc_cm_s	typeref:typename:int
+EXPECT	include/pbc_test.h	/^#define EXPECT(/;"	d
+G1	include/pbc_pairing.h	/^  field_ptr G1, G2;$/;"	m	struct:pairing_s	typeref:typename:field_ptr
+G2	include/pbc_pairing.h	/^  field_ptr G1, G2;$/;"	m	struct:pairing_s	typeref:typename:field_ptr
+GT	include/pbc_pairing.h	/^  field_t GT; \/\/ group of rth roots of unity$/;"	m	struct:pairing_s	typeref:typename:field_t
+How-to: Build your own version	README.md	/^## How-to: Build your own version$/;"	s	chapter:PBC for Android
+NULL	include/pbc_vc_compat.win32.h	/^#define NULL /;"	d
+PBC for Android	README.md	/^# PBC for Android$/;"	c
+PBC_ASSERT	include/pbc_utils.h	/^#define PBC_ASSERT(/;"	d
+PBC_ASSERT_MATCH2	include/pbc_utils.h	/^#define PBC_ASSERT_MATCH2(/;"	d
+PBC_ASSERT_MATCH3	include/pbc_utils.h	/^#define PBC_ASSERT_MATCH3(/;"	d
+Requirements	README.md	/^### Requirements$/;"	S	section:PBC for Android""How-to: Build your own version
+UNUSED_VAR	include/pbc_utils.h	/^#define UNUSED_VAR(/;"	d
+Using this	README.md	/^## Using this$/;"	s	chapter:PBC for Android
+Zr	include/pbc_pairing.h	/^  field_t Zr; \/\/ the field Z_r$/;"	m	struct:pairing_s	typeref:typename:field_t
+__PBC_A1_PARAM_H__	include/pbc_a1_param.h	/^#define __PBC_A1_PARAM_H__$/;"	d
+__PBC_A_PARAM_H__	include/pbc_a_param.h	/^#define __PBC_A_PARAM_H__$/;"	d
+__PBC_CURVE_H__	include/pbc_curve.h	/^#define __PBC_CURVE_H__$/;"	d
+__PBC_D_PARAM_H__	include/pbc_d_param.h	/^#define __PBC_D_PARAM_H__$/;"	d
+__PBC_E_PARAM_H__	include/pbc_e_param.h	/^#define __PBC_E_PARAM_H__$/;"	d
+__PBC_FIELDMPZ_H__	include/pbc_z.h	/^#define __PBC_FIELDMPZ_H__$/;"	d
+__PBC_FIELDMULTI_H__	include/pbc_multiz.h	/^#define __PBC_FIELDMULTI_H__$/;"	d
+__PBC_FIELDQUADRATIC_H__	include/pbc_fieldquadratic.h	/^#define __PBC_FIELDQUADRATIC_H__$/;"	d
+__PBC_FIELD_H__	include/pbc_field.h	/^#define __PBC_FIELD_H__$/;"	d
+__PBC_FP_H__	include/pbc_fp.h	/^#define __PBC_FP_H__$/;"	d
+__PBC_F_PARAM_H__	include/pbc_f_param.h	/^#define __PBC_F_PARAM_H__$/;"	d
+__PBC_G_PARAM_H__	include/pbc_g_param.h	/^#define __PBC_G_PARAM_H__$/;"	d
+__PBC_HILBERT_H__	include/pbc_hilbert.h	/^#define __PBC_HILBERT_H__$/;"	d
+__PBC_H__	include/pbc.h	/^#define __PBC_H__$/;"	d
+__PBC_I_PARAM_H__	include/pbc_i_param.h	/^#define __PBC_I_PARAM_H__$/;"	d
+__PBC_MEMORY_H__	include/pbc_memory.h	/^#define __PBC_MEMORY_H__$/;"	d
+__PBC_MNT_H__	include/pbc_mnt.h	/^#define __PBC_MNT_H__$/;"	d
+__PBC_PAIRING_H__	include/pbc_pairing.h	/^#define __PBC_PAIRING_H__$/;"	d
+__PBC_PARAM_H__	include/pbc_param.h	/^#define __PBC_PARAM_H__$/;"	d
+__PBC_POLY_H__	include/pbc_poly.h	/^#define __PBC_POLY_H__$/;"	d
+__PBC_RANDOM_H__	include/pbc_random.h	/^#define __PBC_RANDOM_H__$/;"	d
+__PBC_SINGULAR_H__	include/pbc_singular.h	/^#define __PBC_SINGULAR_H__$/;"	d
+__PBC_TERNARY_EXTENSION_FIELD_H__	include/pbc_ternary_extension_field.h	/^#define __PBC_TERNARY_EXTENSION_FIELD_H__$/;"	d
+__PBC_TEST_H__	include/pbc_test.h	/^#define __PBC_TEST_H__$/;"	d
+__PBC_UTILS_H__	include/pbc_utils.h	/^#define __PBC_UTILS_H__$/;"	d
+__attribute__	include/pbc_vc_compat.win32.h	/^#define __attribute__(/;"	d
+__func__	include/pbc_vc_compat.win32.h	/^#define __func__ /;"	d
+add	include/pbc_field.h	/^  void (*add)(element_ptr, element_ptr, element_ptr);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr,element_ptr,element_ptr)
+add_ui	include/pbc_field.h	/^  void (*add_ui)(element_ptr, element_ptr, unsigned long int);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr,element_ptr,unsigned long int)
+api	include/pbc_param.h	/^  pbc_param_interface_ptr api;$/;"	m	struct:pbc_param_s	typeref:typename:pbc_param_interface_ptr
+clear	include/pbc_field.h	/^  void (*clear)(element_ptr);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr)
+clear	include/pbc_param.h	/^  void (*clear)(void *);$/;"	m	struct:pbc_param_interface_s	typeref:typename:void (*)(void *)
+clear_func	include/pbc_pairing.h	/^  void (*clear_func)(struct pairing_s *);$/;"	m	struct:pairing_s	typeref:typename:void (*)(struct pairing_s *)
+cmp	include/pbc_field.h	/^  int (*cmp)(element_ptr, element_ptr);$/;"	m	struct:field_s	typeref:typename:int (*)(element_ptr,element_ptr)
+cubic	include/pbc_field.h	/^  void (*cubic) (element_ptr, element_ptr);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr,element_ptr)
+data	include/pbc_field.h	/^  void *data;$/;"	m	struct:element_pp_s	typeref:typename:void *
+data	include/pbc_field.h	/^  void *data;$/;"	m	struct:element_s	typeref:typename:void *
+data	include/pbc_field.h	/^  void *data;$/;"	m	struct:field_s	typeref:typename:void *
+data	include/pbc_pairing.h	/^  void *data;$/;"	m	struct:pairing_pp_s	typeref:typename:void *
+data	include/pbc_pairing.h	/^  void *data;$/;"	m	struct:pairing_s	typeref:typename:void *
+data	include/pbc_param.h	/^  void *data;$/;"	m	struct:pbc_param_s	typeref:typename:void *
+div	include/pbc_field.h	/^  void (*div)(element_ptr, element_ptr, element_ptr);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr,element_ptr,element_ptr)
+doub	include/pbc_field.h	/^  void (*doub)(element_ptr, element_ptr);  \/\/ Can't call it "double"!$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr,element_ptr)
+element_add	include/pbc_field.h	/^static inline void element_add(element_t n, element_t a, element_t b) {$/;"	f	typeref:typename:void
+element_add_ui	include/pbc_field.h	/^static inline void element_add_ui(element_t n, element_t a,$/;"	f	typeref:typename:void
+element_clear	include/pbc_field.h	/^static inline void element_clear(element_t e) {$/;"	f	typeref:typename:void
+element_cmp	include/pbc_field.h	/^static inline int element_cmp(element_t a, element_t b) {$/;"	f	typeref:typename:int
+element_cubic	include/pbc_field.h	/^static inline void element_cubic(element_t n, element_t a) {$/;"	f	typeref:typename:void
+element_div	include/pbc_field.h	/^static inline void element_div(element_t n, element_t a, element_t b) {$/;"	f	typeref:typename:void
+element_double	include/pbc_field.h	/^static inline void element_double(element_t n, element_t a) {$/;"	f	typeref:typename:void
+element_from_bytes	include/pbc_field.h	/^static inline int element_from_bytes(element_t e, unsigned char *data) {$/;"	f	typeref:typename:int
+element_from_hash	include/pbc_field.h	/^static inline void element_from_hash(element_t e, void *data, int len) {$/;"	f	typeref:typename:void
+element_halve	include/pbc_field.h	/^static inline void element_halve(element_t n, element_t a) {$/;"	f	typeref:typename:void
+element_init	include/pbc_field.h	/^static inline void element_init(element_t e, field_ptr f) {$/;"	f	typeref:typename:void
+element_init_G1	include/pbc_pairing.h	/^static inline void element_init_G1(element_t e, pairing_t pairing) {$/;"	f	typeref:typename:void
+element_init_G2	include/pbc_pairing.h	/^static inline void element_init_G2(element_t e, pairing_t pairing) {$/;"	f	typeref:typename:void
+element_init_GT	include/pbc_pairing.h	/^static inline void element_init_GT(element_t e, pairing_t pairing) {$/;"	f	typeref:typename:void
+element_init_Zr	include/pbc_pairing.h	/^static inline void element_init_Zr(element_t e, pairing_t pairing) {$/;"	f	typeref:typename:void
+element_init_same_as	include/pbc_field.h	/^static inline void element_init_same_as(element_t e, element_t e2) {$/;"	f	typeref:typename:void
+element_invert	include/pbc_field.h	/^static inline void element_invert(element_t n, element_t a) {$/;"	f	typeref:typename:void
+element_is0	include/pbc_field.h	/^static inline int element_is0(element_t n) {$/;"	f	typeref:typename:int
+element_is1	include/pbc_field.h	/^static inline int element_is1(element_t n) {$/;"	f	typeref:typename:int
+element_is_sqr	include/pbc_field.h	/^static inline int element_is_sqr(element_t a) {$/;"	f	typeref:typename:int
+element_item	include/pbc_field.h	/^static inline element_ptr element_item(element_t e, int i) {$/;"	f	typeref:typename:element_ptr
+element_item_count	include/pbc_field.h	/^static inline int element_item_count(element_t e) {$/;"	f	typeref:typename:int
+element_item_field	include/pbc_field.h	/^static inline field_ptr element_item_field(element_t e) {$/;"	f	typeref:typename:field_ptr
+element_length_in_bytes	include/pbc_field.h	/^static inline int element_length_in_bytes(element_t e) {$/;"	f	typeref:typename:int
+element_mul	include/pbc_field.h	/^static inline void element_mul(element_t n, element_t a, element_t b) {$/;"	f	typeref:typename:void
+element_mul_mpz	include/pbc_field.h	/^static inline void element_mul_mpz(element_t n, element_t a, mpz_t z) {$/;"	f	typeref:typename:void
+element_mul_si	include/pbc_field.h	/^static inline void element_mul_si(element_t n, element_t a,$/;"	f	typeref:typename:void
+element_mul_zn	include/pbc_field.h	/^static inline void element_mul_zn(element_t c, element_t a, element_t z) {$/;"	f	typeref:typename:void
+element_neg	include/pbc_field.h	/^static inline void element_neg(element_t n, element_t a) {$/;"	f	typeref:typename:void
+element_out_str	include/pbc_field.h	/^static inline size_t element_out_str(FILE * stream, int base, element_t e) {$/;"	f	typeref:typename:size_t
+element_pairing	include/pbc_pairing.h	/^static inline void element_pairing(element_t out, element_t in1, element_t in2) {$/;"	f	typeref:typename:void
+element_pow2_zn	include/pbc_field.h	/^static inline void element_pow2_zn(element_t x, element_t a1, element_t n1,$/;"	f	typeref:typename:void
+element_pow3_zn	include/pbc_field.h	/^static inline void element_pow3_zn(element_t x, element_t a1, element_t n1,$/;"	f	typeref:typename:void
+element_pow_mpz	include/pbc_field.h	/^static inline void element_pow_mpz(element_t x, element_t a, mpz_t n) {$/;"	f	typeref:typename:void
+element_pow_zn	include/pbc_field.h	/^static inline void element_pow_zn(element_t x, element_t a, element_t n) {$/;"	f	typeref:typename:void
+element_pp_clear	include/pbc_field.h	/^static inline void element_pp_clear(element_pp_t p) {$/;"	f	typeref:typename:void
+element_pp_init	include/pbc_field.h	/^static inline void element_pp_init(element_pp_t p, element_t in) {$/;"	f	typeref:typename:void
+element_pp_pow	include/pbc_field.h	/^static inline void element_pp_pow(element_t out, mpz_ptr power,$/;"	f	typeref:typename:void
+element_pp_pow_zn	include/pbc_field.h	/^static inline void element_pp_pow_zn(element_t out, element_t power,$/;"	f	typeref:typename:void
+element_pp_ptr	include/pbc_field.h	/^typedef struct element_pp_s *element_pp_ptr;$/;"	t	typeref:struct:element_pp_s *
+element_pp_s	include/pbc_field.h	/^struct element_pp_s {$/;"	s
+element_pp_t	include/pbc_field.h	/^typedef struct element_pp_s element_pp_t[1];$/;"	t	typeref:struct:element_pp_s[1]
+element_prod_pairing	include/pbc_pairing.h	/^static inline void element_prod_pairing($/;"	f	typeref:typename:void
+element_ptr	include/pbc_field.h	/^typedef struct element_s *element_ptr;$/;"	t	typeref:struct:element_s *
+element_random	include/pbc_field.h	/^static inline void element_random(element_t e) {$/;"	f	typeref:typename:void
+element_s	include/pbc_field.h	/^struct element_s {$/;"	s
+element_set	include/pbc_field.h	/^static inline void element_set(element_t e, element_t a) {$/;"	f	typeref:typename:void
+element_set0	include/pbc_field.h	/^static inline void element_set0(element_t e) {$/;"	f	typeref:typename:void
+element_set1	include/pbc_field.h	/^static inline void element_set1(element_t e) {$/;"	f	typeref:typename:void
+element_set_mpz	include/pbc_field.h	/^static inline void element_set_mpz(element_t e, mpz_t z) {$/;"	f	typeref:typename:void
+element_set_multiz	include/pbc_field.h	/^static inline void element_set_multiz(element_t e, multiz m) {$/;"	f	typeref:typename:void
+element_set_si	include/pbc_field.h	/^static inline void element_set_si(element_t e, signed long int i) {$/;"	f	typeref:typename:void
+element_set_str	include/pbc_field.h	/^static inline int element_set_str(element_t e, const char *s, int base) {$/;"	f	typeref:typename:int
+element_sgn	include/pbc_field.h	/^static inline int element_sgn(element_t a) {$/;"	f	typeref:typename:int
+element_sign	include/pbc_field.h	/^static inline int element_sign(element_t a) {$/;"	f	typeref:typename:int
+element_snprint	include/pbc_field.h	/^static inline int element_snprint(char *s, size_t n, element_t e) {$/;"	f	typeref:typename:int
+element_sqrt	include/pbc_field.h	/^static inline void element_sqrt(element_t a, element_t b) {$/;"	f	typeref:typename:void
+element_square	include/pbc_field.h	/^static inline void element_square(element_t n, element_t a) {$/;"	f	typeref:typename:void
+element_sub	include/pbc_field.h	/^static inline void element_sub(element_t n, element_t a, element_t b) {$/;"	f	typeref:typename:void
+element_t	include/pbc_field.h	/^typedef struct element_s element_t[1];$/;"	t	typeref:struct:element_s[1]
+element_to_bytes	include/pbc_field.h	/^static inline int element_to_bytes(unsigned char *data, element_t e) {$/;"	f	typeref:typename:int
+element_to_mpz	include/pbc_field.h	/^static inline void element_to_mpz(mpz_t z, element_t e) {$/;"	f	typeref:typename:void
+element_to_si	include/pbc_field.h	/^static inline pbc_mpsi element_to_si(element_t e) {$/;"	f	typeref:typename:pbc_mpsi
+element_x	include/pbc_field.h	/^static inline element_ptr element_x(element_ptr a) {$/;"	f	typeref:typename:element_ptr
+element_y	include/pbc_field.h	/^static inline element_ptr element_y(element_ptr a) {$/;"	f	typeref:typename:element_ptr
+field	include/pbc_field.h	/^  struct field_s *field;$/;"	m	struct:element_pp_s	typeref:struct:field_s *
+field	include/pbc_field.h	/^  struct field_s *field;$/;"	m	struct:element_s	typeref:struct:field_s *
+field_clear	include/pbc_field.h	/^  void (*field_clear)(struct field_s *f);$/;"	m	struct:field_s	typeref:typename:void (*)(struct field_s * f)
+field_ptr	include/pbc_field.h	/^typedef struct field_s *field_ptr;$/;"	t	typeref:struct:field_s *
+field_s	include/pbc_field.h	/^struct field_s {$/;"	s
+field_t	include/pbc_field.h	/^typedef struct field_s field_t[1];$/;"	t	typeref:struct:field_s[1]
+fieldmap	include/pbc_field.h	/^typedef void (*fieldmap) (element_t dst, element_t src);$/;"	t	typeref:typename:void (*)(element_t dst,element_t src)
+finalpow	include/pbc_pairing.h	/^  void (*finalpow)(element_t e);$/;"	m	struct:pairing_s	typeref:typename:void (*)(element_t e)
+fixed_length_in_bytes	include/pbc_field.h	/^  int fixed_length_in_bytes;  \/\/ length of an element in bytes; -1 for variable$/;"	m	struct:field_s	typeref:typename:int
+from_bytes	include/pbc_field.h	/^  int (*from_bytes)(element_ptr, unsigned char *data);$/;"	m	struct:field_s	typeref:typename:int (*)(element_ptr,unsigned char * data)
+from_hash	include/pbc_field.h	/^  void (*from_hash)(element_ptr, void *data, int len);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr,void * data,int len)
+get_x	include/pbc_field.h	/^  element_ptr (*get_x)(element_ptr);$/;"	m	struct:field_s	typeref:typename:element_ptr (*)(element_ptr)
+get_y	include/pbc_field.h	/^  element_ptr (*get_y)(element_ptr);$/;"	m	struct:field_s	typeref:typename:element_ptr (*)(element_ptr)
+h	include/pbc_mnt.h	/^  mpz_t h; \/\/h * r = n, r is prime$/;"	m	struct:pbc_cm_s	typeref:typename:mpz_t
+halve	include/pbc_field.h	/^  void (*halve)(element_ptr, element_ptr);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr,element_ptr)
+init	include/pbc_field.h	/^  void (*init)(element_ptr);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr)
+init_pairing	include/pbc_param.h	/^  void (*init_pairing)(struct pairing_s *, void *);$/;"	m	struct:pbc_param_interface_s	typeref:typename:void (*)(struct pairing_s *,void *)
+inline	include/pbc_vc_compat.win32.h	/^#define inline$/;"	d
+int_to_voidp	include/pbc_utils.h	/^static inline void *int_to_voidp(intptr_t i) {$/;"	f	typeref:typename:void *
+invert	include/pbc_field.h	/^  void (*invert)(element_ptr, element_ptr);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr,element_ptr)
+is0	include/pbc_field.h	/^  int (*is0)(element_ptr);$/;"	m	struct:field_s	typeref:typename:int (*)(element_ptr)
+is1	include/pbc_field.h	/^  int (*is1)(element_ptr);$/;"	m	struct:field_s	typeref:typename:int (*)(element_ptr)
+is_almost_coddh	include/pbc_pairing.h	/^  int (*is_almost_coddh)(element_ptr a, element_ptr b,$/;"	m	struct:pairing_s	typeref:typename:int (*)(element_ptr a,element_ptr b,element_ptr c,element_ptr d,struct pairing_s * p)
+is_almost_coddh	include/pbc_pairing.h	/^static inline int is_almost_coddh(element_t a, element_t b,$/;"	f	typeref:typename:int
+is_sqr	include/pbc_field.h	/^  int (*is_sqr)(element_ptr);$/;"	m	struct:field_s	typeref:typename:int (*)(element_ptr)
+item	include/pbc_field.h	/^  element_ptr (*item)(element_ptr, int);$/;"	m	struct:field_s	typeref:typename:element_ptr (*)(element_ptr,int)
+item_count	include/pbc_field.h	/^  int (*item_count)(element_ptr);$/;"	m	struct:field_s	typeref:typename:int (*)(element_ptr)
+k	include/pbc_mnt.h	/^  int k; \/\/embedding degree$/;"	m	struct:pbc_cm_s	typeref:typename:int
+length_in_bytes	include/pbc_field.h	/^  int (*length_in_bytes)(element_ptr);$/;"	m	struct:field_s	typeref:typename:int (*)(element_ptr)
+map	include/pbc_pairing.h	/^  void (*map)(element_ptr out, element_ptr in1, element_ptr in2,$/;"	m	struct:pairing_s	typeref:typename:void (*)(element_ptr out,element_ptr in1,element_ptr in2,struct pairing_s * p)
+mpz_is0	include/pbc_field.h	/^static inline int mpz_is0(mpz_t z) {$/;"	f	typeref:typename:int
+mul	include/pbc_field.h	/^  void (*mul)(element_ptr, element_ptr, element_ptr);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr,element_ptr,element_ptr)
+mul_mpz	include/pbc_field.h	/^  void (*mul_mpz)(element_ptr, element_ptr, mpz_ptr);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr,element_ptr,mpz_ptr)
+mul_si	include/pbc_field.h	/^  void (*mul_si)(element_ptr, element_ptr, signed long int);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr,element_ptr,signed long int)
+multi_add	include/pbc_field.h	/^  void (*multi_add)(element_ptr*, element_ptr*, element_ptr*, int n);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr *,element_ptr *,element_ptr *,int n)
+multi_doub	include/pbc_field.h	/^  void (*multi_doub)(element_ptr*, element_ptr*, int n);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr *,element_ptr *,int n)
+multiz	include/pbc_field.h	/^typedef struct multiz_s *multiz;$/;"	t	typeref:struct:multiz_s *
+n	include/pbc_mnt.h	/^  mpz_t n; \/\/has order n (= q - t + 1) in F_q (and r^2 in F_q^k)$/;"	m	struct:pbc_cm_s	typeref:typename:mpz_t
+name	include/pbc_field.h	/^  char *name;$/;"	m	struct:field_s	typeref:typename:char *
+neg	include/pbc_field.h	/^  void (*neg)(element_ptr, element_ptr);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr,element_ptr)
+nqr	include/pbc_field.h	/^  element_ptr nqr;            \/\/ nonquadratic residue$/;"	m	struct:field_s	typeref:typename:element_ptr
+option_set	include/pbc_pairing.h	/^  void (*option_set)(struct pairing_s *, char *key, char *value);$/;"	m	struct:pairing_s	typeref:typename:void (*)(struct pairing_s *,char * key,char * value)
+order	include/pbc_field.h	/^  mpz_t order;                \/\/ 0 for infinite order$/;"	m	struct:field_s	typeref:typename:mpz_t
+out_info	include/pbc_field.h	/^  void (*out_info)(FILE *, struct field_s *);$/;"	m	struct:field_s	typeref:typename:void (*)(FILE *,struct field_s *)
+out_str	include/pbc_field.h	/^  size_t(*out_str)(FILE *stream, int base, element_ptr);$/;"	m	struct:field_s	typeref:typename:size_t (*)(FILE * stream,int base,element_ptr)
+out_str	include/pbc_param.h	/^  void (*out_str)(FILE *stream, void *data);$/;"	m	struct:pbc_param_interface_s	typeref:typename:void (*)(FILE * stream,void * data)
+pairing	include/pbc_field.h	/^  struct pairing_s *pairing;$/;"	m	struct:field_s	typeref:struct:pairing_s *
+pairing	include/pbc_pairing.h	/^  struct pairing_s *pairing;$/;"	m	struct:pairing_pp_s	typeref:struct:pairing_s *
+pairing_apply	include/pbc_pairing.h	/^static inline void pairing_apply(element_t out, element_t in1, element_t in2,$/;"	f	typeref:typename:void
+pairing_is_symmetric	include/pbc_pairing.h	/^static inline int pairing_is_symmetric(pairing_t pairing) {$/;"	f	typeref:typename:int
+pairing_length_in_bytes_G1	include/pbc_pairing.h	/^static inline int pairing_length_in_bytes_G1(pairing_t pairing) {$/;"	f	typeref:typename:int
+pairing_length_in_bytes_G2	include/pbc_pairing.h	/^static inline int pairing_length_in_bytes_G2(pairing_t pairing) {$/;"	f	typeref:typename:int
+pairing_length_in_bytes_GT	include/pbc_pairing.h	/^static inline int pairing_length_in_bytes_GT(pairing_t pairing) {$/;"	f	typeref:typename:int
+pairing_length_in_bytes_Zr	include/pbc_pairing.h	/^static inline int pairing_length_in_bytes_Zr(pairing_t pairing) {$/;"	f	typeref:typename:int
+pairing_length_in_bytes_compressed_G1	include/pbc_pairing.h	/^static inline int pairing_length_in_bytes_compressed_G1(pairing_t pairing) {$/;"	f	typeref:typename:int
+pairing_length_in_bytes_compressed_G2	include/pbc_pairing.h	/^static inline int pairing_length_in_bytes_compressed_G2(pairing_t pairing) {$/;"	f	typeref:typename:int
+pairing_length_in_bytes_x_only_G1	include/pbc_pairing.h	/^static inline int pairing_length_in_bytes_x_only_G1(pairing_t pairing) {$/;"	f	typeref:typename:int
+pairing_length_in_bytes_x_only_G2	include/pbc_pairing.h	/^static inline int pairing_length_in_bytes_x_only_G2(pairing_t pairing) {$/;"	f	typeref:typename:int
+pairing_option_set	include/pbc_pairing.h	/^static inline void pairing_option_set(pairing_t pairing, char *key, char *value) {$/;"	f	typeref:typename:void
+pairing_pp_apply	include/pbc_pairing.h	/^static inline void pairing_pp_apply(element_t out, element_t in2, pairing_pp_t p) {$/;"	f	typeref:typename:void
+pairing_pp_clear	include/pbc_pairing.h	/^static inline void pairing_pp_clear(pairing_pp_t p) {$/;"	f	typeref:typename:void
+pairing_pp_init	include/pbc_pairing.h	/^static inline void pairing_pp_init(pairing_pp_t p, element_t in1, pairing_t pairing) {$/;"	f	typeref:typename:void
+pairing_pp_ptr	include/pbc_pairing.h	/^typedef struct pairing_pp_s *pairing_pp_ptr;$/;"	t	typeref:struct:pairing_pp_s *
+pairing_pp_s	include/pbc_pairing.h	/^struct pairing_pp_s {$/;"	s
+pairing_pp_t	include/pbc_pairing.h	/^typedef struct pairing_pp_s pairing_pp_t[1];$/;"	t	typeref:struct:pairing_pp_s[1]
+pairing_ptr	include/pbc_pairing.h	/^typedef struct pairing_s *pairing_ptr;$/;"	t	typeref:struct:pairing_s *
+pairing_s	include/pbc_pairing.h	/^struct pairing_s {$/;"	s
+pairing_t	include/pbc_pairing.h	/^typedef struct pairing_s pairing_t[1];$/;"	t	typeref:struct:pairing_s[1]
+pbc_cm_ptr	include/pbc_mnt.h	/^typedef struct pbc_cm_s *pbc_cm_ptr;$/;"	t	typeref:struct:pbc_cm_s *
+pbc_cm_s	include/pbc_mnt.h	/^struct pbc_cm_s {$/;"	s
+pbc_cm_t	include/pbc_mnt.h	/^typedef struct pbc_cm_s pbc_cm_t[1];$/;"	t	typeref:struct:pbc_cm_s[1]
+pbc_demo_pairing_init	include/pbc_test.h	/^static inline void pbc_demo_pairing_init(pairing_t pairing, int argc, char **argv) {$/;"	f	typeref:typename:void
+pbc_err_count	include/pbc_test.h	/^int pbc_err_count;$/;"	v	typeref:typename:int
+pbc_mpsi	include/pbc_utils.h	/^typedef signed long int        pbc_mpsi;$/;"	t	typeref:typename:signed long int
+pbc_mpsi	include/pbc_utils.h	/^typedef signed long long int   pbc_mpsi;$/;"	t	typeref:typename:signed long long int
+pbc_mpui	include/pbc_utils.h	/^typedef unsigned long int      pbc_mpui;$/;"	t	typeref:typename:unsigned long int
+pbc_mpui	include/pbc_utils.h	/^typedef unsigned long long int pbc_mpui;$/;"	t	typeref:typename:unsigned long long int
+pbc_param_clear	include/pbc_param.h	/^static inline void pbc_param_clear(pbc_param_ptr p) {$/;"	f	typeref:typename:void
+pbc_param_interface_ptr	include/pbc_param.h	/^typedef struct pbc_param_interface_s *pbc_param_interface_ptr;$/;"	t	typeref:struct:pbc_param_interface_s *
+pbc_param_interface_s	include/pbc_param.h	/^struct pbc_param_interface_s {$/;"	s
+pbc_param_interface_t	include/pbc_param.h	/^typedef struct pbc_param_interface_s pbc_param_interface_t[1];$/;"	t	typeref:struct:pbc_param_interface_s[1]
+pbc_param_out_str	include/pbc_param.h	/^static inline void pbc_param_out_str(FILE *stream, pbc_param_ptr p) {$/;"	f	typeref:typename:void
+pbc_param_ptr	include/pbc_param.h	/^typedef struct pbc_param_s *pbc_param_ptr;$/;"	t	typeref:struct:pbc_param_s *
+pbc_param_s	include/pbc_param.h	/^struct pbc_param_s {$/;"	s
+pbc_param_t	include/pbc_param.h	/^typedef struct pbc_param_s pbc_param_t[1];$/;"	t	typeref:struct:pbc_param_s[1]
+phi	include/pbc_pairing.h	/^  void (*phi)(element_ptr out, element_ptr in, struct pairing_s *pairing); \/\/isomorphism G2 --/;"	m	struct:pairing_s	typeref:typename:void (*)(element_ptr out,element_ptr in,struct pairing_s * pairing)
+phikonr	include/pbc_pairing.h	/^  mpz_t phikonr;$/;"	m	struct:pairing_s	typeref:typename:mpz_t
+poly_degree	include/pbc_poly.h	/^static inline int poly_degree(element_ptr f) {$/;"	f	typeref:typename:int
+pow_mpz	include/pbc_field.h	/^  void (*pow_mpz)(element_ptr, element_ptr, mpz_ptr);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr,element_ptr,mpz_ptr)
+pp_apply	include/pbc_pairing.h	/^  void (*pp_apply)(element_t out, element_t in2, pairing_pp_t p);$/;"	m	struct:pairing_s	typeref:typename:void (*)(element_t out,element_t in2,pairing_pp_t p)
+pp_clear	include/pbc_field.h	/^  void (*pp_clear)(element_pp_t p);$/;"	m	struct:field_s	typeref:typename:void (*)(element_pp_t p)
+pp_clear	include/pbc_pairing.h	/^  void (*pp_clear)(pairing_pp_t p);$/;"	m	struct:pairing_s	typeref:typename:void (*)(pairing_pp_t p)
+pp_init	include/pbc_field.h	/^  void (*pp_init)(element_pp_t p, element_t in);$/;"	m	struct:field_s	typeref:typename:void (*)(element_pp_t p,element_t in)
+pp_init	include/pbc_pairing.h	/^  void (*pp_init)(pairing_pp_t p, element_t in1, struct pairing_s *);$/;"	m	struct:pairing_s	typeref:typename:void (*)(pairing_pp_t p,element_t in1,struct pairing_s *)
+pp_pow	include/pbc_field.h	/^  void (*pp_pow)(element_t out, mpz_ptr power, element_pp_t p);$/;"	m	struct:field_s	typeref:typename:void (*)(element_t out,mpz_ptr power,element_pp_t p)
+prod_pairings	include/pbc_pairing.h	/^  void (*prod_pairings)(element_ptr out, element_t in1[], element_t in2[], int n_prod,$/;"	m	struct:pairing_s	typeref:typename:void (*)(element_ptr out,element_t in1[],element_t in2[],int n_prod,struct pairing_s * p)
+q	include/pbc_mnt.h	/^  mpz_t q; \/\/curve defined over F_q$/;"	m	struct:pbc_cm_s	typeref:typename:mpz_t
+r	include/pbc_mnt.h	/^  mpz_t r;$/;"	m	struct:pbc_cm_s	typeref:typename:mpz_t
+r	include/pbc_pairing.h	/^  mpz_t r; \/\/ order of G1, G2, GT$/;"	m	struct:pairing_s	typeref:typename:mpz_t
+random	include/pbc_field.h	/^  void (*random)(element_ptr);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr)
+set	include/pbc_field.h	/^  void (*set)(element_ptr, element_ptr);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr,element_ptr)
+set0	include/pbc_field.h	/^  void (*set0)(element_ptr);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr)
+set1	include/pbc_field.h	/^  void (*set1)(element_ptr);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr)
+set_mpz	include/pbc_field.h	/^  void (*set_mpz)(element_ptr, mpz_ptr);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr,mpz_ptr)
+set_multiz	include/pbc_field.h	/^  void (*set_multiz)(element_ptr, multiz);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr,multiz)
+set_si	include/pbc_field.h	/^  void (*set_si)(element_ptr, signed long int);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr,signed long int)
+set_str	include/pbc_field.h	/^  int (*set_str)(element_ptr e, const char *s, int base);$/;"	m	struct:field_s	typeref:typename:int (*)(element_ptr e,const char * s,int base)
+sign	include/pbc_field.h	/^  int (*sign)(element_ptr);  \/\/ satisfies sign(x) = -sign(-x)$/;"	m	struct:field_s	typeref:typename:int (*)(element_ptr)
+snprint	include/pbc_field.h	/^  int (*snprint)(char *s, size_t n, element_ptr e);$/;"	m	struct:field_s	typeref:typename:int (*)(char * s,size_t n,element_ptr e)
+snprintf	include/pbc_vc_compat.win32.h	/^#define snprintf /;"	d
+sqrt	include/pbc_field.h	/^  void (*sqrt)(element_ptr, element_ptr);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr,element_ptr)
+square	include/pbc_field.h	/^  void (*square)(element_ptr, element_ptr);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr,element_ptr)
+sub	include/pbc_field.h	/^  void (*sub)(element_ptr, element_ptr, element_ptr);$/;"	m	struct:field_s	typeref:typename:void (*)(element_ptr,element_ptr,element_ptr)
+to_bytes	include/pbc_field.h	/^  int (*to_bytes)(unsigned char *data, element_ptr);$/;"	m	struct:field_s	typeref:typename:int (*)(unsigned char * data,element_ptr)
+to_mpz	include/pbc_field.h	/^  void (*to_mpz)(mpz_ptr, element_ptr);$/;"	m	struct:field_s	typeref:typename:void (*)(mpz_ptr,element_ptr)

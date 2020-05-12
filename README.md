@@ -5,7 +5,7 @@ PBC pre-built for the android platform
 Add this repository as submodule to your program with something like the
 following:
 ```sh
-git submodule add git://github.com/codymlewis app/src/main/cpp/pbc
+git submodule add git://github.com/codymlewis/android-pbc.git app/src/main/cpp/pbc
 ```
 
 then add the following in your cmake file somewhere after the
