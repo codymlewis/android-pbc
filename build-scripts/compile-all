@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+
+
+[ -z ${ANDROID_NDK_ROOT+x} ] && \
+        echo "Error: please set the ANDROID_NDK_ROOT environment variable" && \
+        exit
+
+[ -z ${ANDROIDAPI+x} ] && \
+        echo "Error: please set the ANDROIDAPI environment variable" && \
+        exit
+
+export ANDROID_NDK_HOME="$ANDROID_NDK_ROOT"
+export ANDROID_API="$ANDROIDAPI"
+
+PATH=$ANDROID_NDK_ROOT/toolchains/llvm/prebuilt/linux-x86_64/bin:$ANDROID_NDK_ROOT/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin:$PATH
+
+mkdir ../android-pbc
+
+for TARGET in aarch64-linux-android arm-linux-androideabi i686-linux-android x86_64-linux-android; do
+        export TOOLCHAIN=$ANDROID_NDK_HOME/toolchains/llvm/prebuilt/linux-x86_64
+        if [ $TARGET = arm-linux-androideabi ]; then
+                export CTAR=armv7a-linux-androideabi
+                export dir_names="armeabi-v7a armeabi-v7a-neon"
+        else
+                export CTAR="$TARGET"
+                [ $TARGET = aarch64-linux-android ] && export dir_names="arm64-v8a"
+                [ $TARGET = i686-linux-android ] && export dir_names="x86"
+                [ $TARGET = x86_64-linux-android ] && export dir_names="x86_64"
+        fi
+        export API="$ANDROIDAPI"
+        export AR=$TOOLCHAIN/bin/$TARGET-ar
+        export AS=$TOOLCHAIN/bin/$TARGET-as
+        export CC=$TOOLCHAIN/bin/$CTAR$API-clang
+        export CXX=$TOOLCHAIN/bin/$CTAR$API-clang++
+        export LD=$TOOLCHAIN/bin/$TARGET-ld
+        export RANLIB=$TOOLCHAIN/bin/$TARGET-ranlib
+        export STRIP=$TOOLCHAIN/bin/$TARGET-strip
+
+
+        for d in $dir_names; do
+                mkdir ../android-pbc/$d
+                ./configure --host $CTAR CPPFLAGS="-I$PWD/../gmp/include/" LDFLAGS="-L$PWD/../gmp/$d"
+                make -j"$(nproc)"
+                ./libtool --mode=install /usr/bin/install -c libpbc.la "$PWD/../android-pbc/$d"
+                make clean
+        done
+done
